@@ -117,7 +117,7 @@ body {
     align-items: start;
 }
 
-.about-image {
+/* .about-image {
     position: relative;
     border-radius: 16px;
     overflow: hidden;
@@ -133,7 +133,7 @@ body {
 
 .about-image:hover img {
     transform: scale(2.05);
-}
+} */
 
 .about-text {
     padding: 2rem;
