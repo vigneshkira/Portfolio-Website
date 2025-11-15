@@ -6,260 +6,523 @@
     <meta name="description" content="Vignesh M - Software Developer Portfolio | Specializing in AI, ML, and Robotics">
     <meta name="keywords" content="software developer, AI, ML, robotics, ROS, computer vision, full stack development">
     <title>Vignesh M - Software Developer</title>
-    <link rel="stylesheet" href="styles.css">
+    
+    <!-- Google Fonts: Inter -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome (for icons) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <style src="styles.css"></style>
+
+    
 </head>
-<body class="light-mode">
-    <nav class="navbar">
-        <div class="container">
-            <div class="logo">VM</div>
-            <ul class="nav-links">
-                <li><a href="#home" class="nav-link">Home</a></li>
-                <li><a href="#about" class="nav-link">About</a></li>
-                <li><a href="#experience" class="nav-link">Experience</a></li>
-                <li><a href="#projects" class="nav-link">Projects</a></li>
-                <li><a href="#contact" class="nav-link">Contact</a></li>
-            </ul>
-          
-        </div>
-    </nav>
+<body>
 
-    <header id="home" class="hero">
-        <div class="container">
-            <h1 class="typing-text">Hi, I'm Vignesh M</h1>
-            <p class="subtitle">Software Developer</p>
-            <div class="hero-text">
-                <!-- <span id="typed-text"></span> -->
-                <!-- <span class="cursor">|</span> -->
+    <!-- 1. Header -->
+    <header class="main-header">
+        <nav class="navbar container">
+            <div class="nav-logo">
+                <a href="#hero">VM</a>
             </div>
-        </div>
+            <div class="nav-menu">
+                <ul class="nav-links">
+                    <li class="nav-link"><a href="#hero">Home</a></li>
+                    <li class="nav-link"><a href="#about">About</a></li>
+                    <li class="nav-link"><a href="#skills">Skills</a></li>
+                    <li class="nav-link"><a href="#experience">Experience</a></li>
+                    <li class="nav-link"><a href="#projects">Projects</a></li>
+                    <li class="nav-link"><a href="#contact">Contact</a></li>
+                </ul>
+                <button class="theme-toggle-btn" id="theme-toggle" aria-label="Toggle dark mode">
+                    <!-- Moon Icon (for Light Mode) -->
+                    <svg class="moon-icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg>
+                    <!-- Sun Icon (for Dark Mode) -->
+                    <svg class="sun-icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"></circle><line x1="12" y1="1" x2="12" y2="3"></line><line x1="12" y1="21" x2="12" y2="23"></line><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line><line x1="1" y1="12" x2="3" y2="12"></line><line x1="21" y1="12" x2="23" y2="12"></line><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line></svg>
+                </button>
+                <button class="hamburger" id="hamburger-btn" aria-label="Open menu">
+                    <!-- Menu Icon -->
+                    <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg>
+                </button>
+            </div>
+        </nav>
     </header>
-    
 
-    <section id="about" class="section">
-        <div class="container">
-          <h2 class="section-title">About Me</h2>
-          <div class="about-content">
-         
-           <div class="about-image">
-              <img src="PM.jpg" alt="Vignesh M" loading="lazy">
+    <main>
+
+        <!-- 2. Hero Section -->
+        <section id="hero">
+            <div class="container">
+                <div class="hero-content">
+                    <h1>Hi, I'm Vignesh M</h1>
+                    <p class="hero-title" id="hero-subtitle">Software Developer</p>
+                </div>
             </div>
-            
-           
-            <div class="about-text">
-              <p class="about-description">
-                I'm Vignesh M, an enthusiastic Computer Technology student with a strong foundation in Artificial Intelligence (AI), Machine Learning (ML), and Robotics. I am proficient in Python, C++, and ROS, with hands-on experience in developing autonomous systems and integrating advanced technologies like Computer Vision. My passion lies in creating innovative, real-world solutions by merging technology with practical applications. I focus on building intuitive, user-friendly systems with a strong emphasis on UI/UX design, ensuring that the technology I create is both powerful and accessible. Driven by curiosity and a commitment to continuous learning, I strive to push the boundaries of AI, robotics, and technology to make a meaningful impact on the world.              </p>
-            <div class="social-links">
-                <a href="https://github.com/vigneshkira/" target="_blank" rel="noopener">GitHub</a>
-                <a href="https://www.linkedin.com/in/vignesh-marimuthu-822292204" target="_blank" rel="noopener">LinkedIn</a>
-            </div>
-            </div>
-               
-          </div>
-        </div>
-      </section>
-      
-    
-    <!-- Skills Section -->
-    <section id="skills" class="section">
-        <div class="container">
-                <!-- Skill Progress Bars (Optional for showing proficiency levels) -->
-                <div class="skills-progress">
-                    <div class="skill-item">
-                        <div class="skill-name">Python</div>
-                        <div class="skill-bar">
-                            <div class="skill-progress" style="width: 90%;"></div>
-                        </div>
+        </section>
+
+        <!-- 3. About Section -->
+        <section id="about" class="reveal">
+            <div class="container">
+                <h2 class="section-title">About Me</h2>
+                <div class="about-grid">
+                    <div class="about-photo">
+                        <!-- Using a placeholder for PM.jpg -->
+                        <img src="https://placehold.co/350x350/6C63FF/FFFFFF?text=VM" alt="Vignesh M" class="about-photo">
                     </div>
-                    <div class="skill-item">
-                        <div class="skill-name">C++</div>
-                        <div class="skill-bar">
-                            <div class="skill-progress" style="width: 85%;"></div>
-                        </div>
-                    </div>
-                    <div class="skill-item">
-                        <div class="skill-name">JavaScript</div>
-                        <div class="skill-bar">
-                            <div class="skill-progress" style="width: 80%;"></div>
-                        </div>
-                    </div>
-                    <div class="skill-item">
-                        <div class="skill-name">Python</div>
-                        <div class="skill-bar">
-                            <div class="skill-progress" style="width: 75%;"></div>
-                        </div>
-                    </div>
-                    <div class="skill-item">
-                        <div class="skill-name">Tensorflow</div>
-                        <div class="skill-bar">
-                            <div class="skill-progress" style="width: 75%;"></div>
-                        </div>
-                    </div>
-                    <div class="skill-item">
-                        <div class="skill-name">Photoshop</div>
-                        <div class="skill-bar">
-                            <div class="skill-progress" style="width: 75%;"></div>
+                    <div class="about-content">
+                        <p>I'm Vignesh M, an enthusiastic Computer Technology student with a strong foundation in Artificial Intelligence (AI), Machine Learning (ML), and Robotics. I am proficient in Python, C++, and ROS, with hands-on experience in developing autonomous systems and integrating advanced technologies like Computer Vision.</p>
+                        <p>My passion lies in creating innovative, real-world solutions by merging technology with practical applications. I focus on building intuitive, user-friendly systems with a strong emphasis on UI/UX design, ensuring that the technology I create is both powerful and accessible. Driven by curiosity and a commitment to continuous learning, I strive to push the boundaries of AI, robotics, and technology to make a meaningful impact on the world.</p>
+                        <div class="about-social-links">
+                            <a href="https://github.com/vigneshkira/" target="_blank" rel="noopener">GitHub</a>
+                            <a href="https://www.linkedin.com/in/vignesh-marimuthu-822292204" target="_blank" rel="noopener">LinkedIn</a>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
-    
-    </section>
-    
-    <section id="education" class="section">
-        <div class="container">
-            <h2>Education</h2>
-            <div class="education">
-                <div class="education-item">
-                    <h4>KG College of Arts and Science</h4>
-                    <p>Bachelor of Science in Computer Science</p>
-                    <p class="date">08/07/2023 – Present</p>
-                    <p class="percentage">Percentage: 70%</p>
-                </div>
-                <div class="education-item">
-                    <h4>Elsie Matriculation Higher Secondary School</h4>
-                    <p class="date">02/06/2022 – 10/5/2023</p>
-                    <p class="percentage">Percentage: 75%</p>
-                </div>
-            </div>
-        </div>
-    </section>
+        </section>
 
-
-    <section id="experience" class="section">
-        <div class="container">
-            <h2>Experience</h2>
-            <div class="experience-grid">
-                <div class="experience-card">
-                    <div class="experience-image">
-                        <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=500&q=80" alt="Web Development" loading="lazy">
-                    </div>
-                    <div class="experience-content">
-                        <h3>Data-entry and Web Development</h3>
-                        <p class="company">KGISL Micro-college - Internship</p>
-                        <p class="date">2023-2024</p>
-                        <ul class="experience-list">
-                            <li>✅ Proficient in Front-End Technologies – Skilled in HTML, CSS, JavaScript, and React.js</li>
-                            <li>✅ UI/UX Design Expertise – Experienced in Figma and Adobe Photoshop</li>
-                            <li>✅ Responsive & Interactive Designs – Develops pixel-perfect layouts</li>
-                            <li>✅ Version Control & Collaboration – Proficient in Git and GitHub</li>
-                            <li>✅ Performance & Optimization – Implements best practices for SEO</li>
+        <!-- 4. Skills Section -->
+        <section id="skills" class="reveal">
+            <div class="container">
+                <h2 class="section-title">Skills</h2>
+                <div class="skills-grid">
+                    <div class="skill-card reveal">
+                        <h4>Programming & AI</h4>
+                        <ul>
+                            <li>Python</li>
+                            <li>C++</li>
+                            <li>JavaScript</li>
+                            <li>TensorFlow</li>
+                            <li>ROS (Robot Operating System)</li>
+                            <li>Computer Vision</li>
                         </ul>
                     </div>
-                </div>
-
-                <div class="experience-card">
-                    <div class="experience-image">
-                        <img src="1556971845940.png" alt="Robotics" loading="lazy">
-                    </div>
-                    <div class="experience-content">
-                        <h3>F1/10th Autonomous Car</h3>
-                        <p class="company">KGEXPERIENCE Innovation Lab – Internship</p>
-                        <p class="date">2024-Present</p>
-                        <ul class="experience-list">
-                            <li>✅ Exploring ROS2 Humble for autonomous systems</li>
-                            <li>✅ Learning PID controllers for wall-following</li>
-                            <li>✅ Understanding sensor fusion and integration</li>
-                            <li>✅ Gaining experience with simulation tools</li>
-                            <li>✅ Practicing debugging and optimization</li>
+                    <div class="skill-card reveal">
+                        <h4>Design & Tools</h4>
+                        <ul>
+                            <li>UI/UX Design</li>
+                            <li>Figma</li>
+                            <li>Adobe Photoshop</li>
+                            <li>HTML & CSS</li>
+                            <li>React.js</li>
+                            <li>Git & GitHub</li>
                         </ul>
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
 
-
-    <!-- Achievements Section -->
-<section id="achievements">
-    <div class="container">
-      <h2 class="section-title">Achievements</h2>
-      <div class="achievements-grid">
-        <!-- AWS Deep-Racer Challenge Finalist 2024 -->
-        <div class="achievement-card">
-          <div class="achievement-icon">
-            <i class="fas fa-trophy"></i>
-          </div>
-          <h3>AWS Deep-Racer Challenge Finalist 2024</h3>
-          <p>Excelled in autonomous car navigation and reinforcement learning, securing a finalist position in the prestigious AWS Deep-Racer competition, demonstrating proficiency in autonomous driving and reinforcement learning models.</p>
-        </div>
-  
-        <!-- Best Computer Vision Model of the Year 2023 -->
-        <div class="achievement-card">
-          <div class="achievement-icon">
-            <i class="fas fa-award"></i>
-          </div>
-          <h3>Best Computer Vision Model of the Year 2023</h3>
-          <p>"Best Computer Vision Model of the Year" in a national competition for the innovative design and implementation of an autonomous system using Computer Vision (CV), AI, and IOT devices to enhance system functionality and user experience.</p>
-        </div>
-  
-        <!-- International Hackathon in Quantum (iQHack) at MIT -->
-        <div class="achievement-card">
-          <div class="achievement-icon">
-            <i class="fas fa-globe"></i>
-          </div>
-          <h3>International Hackathon in Quantum (iQHack) at MIT</h3>
-          <p>Participated in the prestigious iQHack at MIT, focusing on cutting-edge quantum computing solutions. Collaborated with teams to create innovative solutions for real-world quantum challenges, gaining exposure to state-of-the-art quantum technologies.</p>
-        </div>
-      </div>
-    </div>
-  </section>
-  
-
-   <section id="projects" class="section">
-        <div class="container">
-            <h2>Projects</h2>
-            <div class="projects-grid">
-                <div class="project-card">
-                    <img src="https://images.unsplash.com/photo-1557324232-b8917d3c3dcb?w=800&q=80" alt="Home Security System">
-                    <h3>Home Security System</h3>
-                    <p>IoT-based smart home security system using CV and AI.</p>
-                </div>
-                <div class="project-card">
-                    <img src="https://images.unsplash.com/photo-1621360841013-c7683c659ec6?w=800&q=80" alt="F1/10th Autonomous Car">
-                    <h3>F1/10th Autonomous Car</h3>
-                    <p>Autonomous driving algorithms using ROS2 Humble.</p>
-                </div>
-                <div class="project-card">
-                    <img src="https://images.unsplash.com/photo-1481627834876-b7833e8f5570?w=800&q=80" alt="Book Kiosk System">
-                    <h3>Book Kiosk System</h3>
-                    <p>Automated book rental and management system.</p>
+        <!-- 5. Education Section -->
+        <section id="education" class="reveal">
+            <div class="container">
+                <h2 class="section-title">Education</h2>
+                <div class="education-grid">
+                    <div class="education-card reveal">
+                        <h4>KG College of Arts and Science</h4>
+                        <p>Bachelor of Science in Computer Science</p>
+                        <p class="date">08/07/2023 – Present</p>
+                        <p class="percentage">Percentage: 70%</p>
+                    </div>
+                    <div class="education-card reveal">
+                        <h4>Elsie Matriculation Higher Secondary School</h4>
+                        <p>Higher Secondary Education</p>
+                        <p class="date">02/06/2022 – 10/05/2023</p>
+                        <p class="percentage">Percentage: 75%</p>
+                    </div>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <section id="contact" class="section">
-        <div class="container">
-            <h2>Contact Me</h2>
-            <form id="contact-form" class="contact-form">
-                <div class="form-group">
-                    <label for="name">Name</label>
-                    <input type="text" id="name" name="name" required>
-                </div>
-                <div class="form-group">
-                    <label for="email">Email</label>
-                    <input type="email" id="email" name="email" required>
-                </div>
-                <div class="form-group">
-                    <label for="message">Message</label>
-                    <textarea id="message" name="message" required></textarea>
-                </div>
-                <button type="submit" class="submit-btn">Send Message</button>
-            </form>
-        </div>
-    </section>
+        <!-- 6. Experience Section -->
+        <section id="experience" class="reveal">
+            <div class="container">
+                <h2 class="section-title">Experience</h2>
+                <div class="experience-grid">
+                    
+                    <div class="experience-card reveal">
+                        <div class="experience-image">
+                            <img src="https://placehold.co/400x400/6c63ff/white?text=Robotics+Lab" alt="Robotics" loading="lazy">
+                        </div>
+                        <div class="experience-content">
+                            <h3>F1/10th Autonomous Car</h3>
+                            <p class="company">KGEXPERIENCE Innovation Lab – Internship</p>
+                            <p class="date">2024 – Present</p>
+                            <ul class="experience-list">
+                                <li>Exploring ROS2 Humble for autonomous systems</li>
+                                <li>Learning PID controllers for wall-following</li>
+                                <li>Understanding sensor fusion and integration</li>
+                                <li>Gaining experience with simulation tools</li>
+                                <li>Practicing debugging and optimization</li>
+                            </ul>
+                        </div>
+                    </div>
 
-    <footer class="footer">
+                    <div class="experience-card reveal">
+                        <div class="experience-image">
+                            <img src="https://placehold.co/400x400/ff6584/white?text=Web+Dev" alt="Web Development" loading="lazy">
+                        </div>
+                        <div class="experience-content">
+                            <h3>Data-entry and Web Development</h3>
+                            <p class="company">KGISL Micro-college – Internship</p>
+                            <p class="date">2023 – 2024</p>
+                            <ul class="experience-list">
+                                <li>Proficient in Front-End Technologies – Skilled in HTML, CSS, JavaScript, and React.js</li>
+                                <li>UI/UX Design Expertise – Experienced in Figma and Adobe Photoshop</li>
+                                <li>Responsive & Interactive Designs – Develops pixel-perfect layouts</li>
+                                <li>Version Control & Collaboration – Proficient in Git and GitHub</li>
+                                <li>Performance & Optimization – Implements best practices for SEO</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- 7. Achievements Section -->
+        <section id="achievements" class="reveal">
+            <div class="container">
+                <h2 class="section-title">Achievements</h2>
+                <div class="achievements-grid">
+                    <div class="achievement-card reveal">
+                        <div class="achievement-icon">
+                            <i class="fas fa-trophy"></i>
+                        </div>
+                        <h3>AWS Deep-Racer Challenge Finalist 2024</h3>
+                        <p>Excelled in autonomous car navigation and reinforcement learning, securing a finalist position in the prestigious AWS Deep-Racer competition.</p>
+                    </div>
+                    <div class="achievement-card reveal">
+                        <div class="achievement-icon">
+                            <i class="fas fa-award"></i>
+                        </div>
+                        <h3>Best Computer Vision Model of the Year 2023</h3>
+                        <p>Won for the innovative design and implementation of an autonomous system using Computer Vision (CV), AI, and IOT devices.</p>
+                    </div>
+                    <div class="achievement-card reveal">
+                        <div class="achievement-icon">
+                            <i class="fas fa-globe"></i>
+                        </div>
+                        <h3>International Hackathon in Quantum (iQHack) at MIT</h3>
+                        <p>Participated in the prestigious iQHack at MIT, focusing on cutting-edge quantum computing solutions and collaborating on real-world quantum challenges.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 8. Projects Section -->
+        <section id="projects" class="reveal">
+            <div class="container">
+                <h2 class="section-title">Projects</h2>
+                <div class="projects-grid">
+                    
+                    <div class="project-card reveal" data-modal="project1">
+                        <div class="project-image">
+                            <img src="https://placehold.co/400x220/6C63FF/FFFFFF?text=MT+Learning" alt="MT Learning Platform" loading="lazy">
+                        </div>
+                        <div class="project-info">
+                            <h3>MT Learning Platform</h3>
+                            <p>An AI-powered platform for personalized learning.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="project-card reveal" data-modal="project2">
+                        <div class="project-image">
+                            <img src="https://placehold.co/400x220/FF6584/FFFFFF?text=Book+Kiosk" alt="Book Kiosk" loading="lazy">
+                        </div>
+                        <div class="project-info">
+                            <h3>Book Kiosk</h3>
+                            <p>CV-based automated book rental and management system.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="project-card reveal" data-modal="project3">
+                        <div class="project-image">
+                            <img src="https://placehold.co/400x220/4CAF50/FFFFFF?text=M+Mart" alt="M Mart Smart Store" loading="lazy">
+                        </div>
+                        <div class="project-info">
+                            <h3>M Mart</h3>
+                            <p>A checkout-free smart store concept using AI and CV.</p>
+                            <button src = "https://www.figma.com/proto/WOIlNtM1oMg5Uu2jMjlDpu/Untitled?node-id=3-21&t=TwxW5rA0pK1n1o2j-1&starting-point-node-id=1%3A2">View</button>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- 9. Contact Section -->
+        <section id="contact" class="reveal">
+            <div class="container contact-container">
+                <h2>Contact Me</h2>
+                <p>I'm currently open to new opportunities and collaborations. Whether you have a project in mind or just want to say hi, feel free to reach out!</p>
+                
+                <form id="contact-form" class="contact-form">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                    <p id="form-success-msg">Success! Your message has been sent.</p>
+                </form>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- 10. Footer -->
+    <footer class="main-footer">
         <div class="container">
-             <center><p>&copy; 2024 Vignesh M. All rights reserved.</p></center>
+            <p>&copy; 2024 Vignesh M. All rights reserved.</p>
         </div>
     </footer>
 
-    <script src="script.js"></script>
+    <!-- 11. Project Modal (Added) -->
+    <div id="project-modal" class="modal">
+        <div class="modal-content">
+            <button class="modal-close-btn" id="modal-close" aria-label="Close modal">&times;</button>
+            <div class="modal-body">
+                <!-- Content will be injected by JavaScript -->
+            </div>
+        </div>
+    </div>
+    
+    <!-- Modal Content Templates (Added) -->
+    <div id="modal-templates" style="display: none;">
+        
+        <div id="project1">
+            <div class="modal-header">
+                <h2>MT Learning Platform</h2>
+                <p>An AI-powered web platform designed to provide personalized learning paths and resources for tech students.</p>
+            </div>
+            <h4>Problem Statement</h4>
+            <p>Students often face a "one-size-fits-all" learning model. This platform aims to use ML to analyze a student's learning style and knowledge gaps to suggest a custom curriculum.</p>
+            
+            <h4>Key Features</h4>
+            <ul>
+                <li>✅ ML-driven recommendation engine for courses.</li>
+                <li>✅ Interactive coding environments.</li>
+                <li>✅ React-based responsive front-end.</li>
+                <li>✅ User progress tracking and analytics.</li>
+            </ul>
+            
+            <h4>Tech Stack</h4>
+            <p><strong>Frontend:</strong> React.js, JavaScript, CSS<br><strong>Backend:</strong> Python, Flask, TensorFlow/Scikit-learn<br><strong>Database:</strong> PostgreSQL</p>
+            
+            <h4>My Role</h4>
+            <p>Lead Developer & UI/UX Designer. Responsible for the full-stack development, from designing the UI in Figma to implementing the ML models.</p>
+
+            <div class="modal-gallery">
+                <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://embed.figma.com/design/801DqT5LfSVvk9LeUskQmm/LLS--Copy-?node-id=8-16&embed-host=share" allowfullscreen></iframe>            </div>
+        </div>
+        
+        <div id="project2">
+            <div class="modal-header">
+                <h2>Book Kiosk System</h2>
+                <p>An automated, IoT-based kiosk for renting, returning, and managing books, designed for college campuses.</p>
+            </div>
+            <h4>Problem Statement</h4>
+            <p>Manual library checkout systems are slow and inefficient. This project creates a self-service kiosk to automate the process 24/7.</p>
+            
+            <h4>Key Features</h4>
+            <ul>
+                <li>✅ Computer Vision (OpenCV) for scanning book covers/barcodes.</li>
+                <li>✅ Simple touch-screen UI for browsing and transactions.</li>
+                <li>✅ IoT integration for electronic lock control.</li>
+                <li>✅ Real-time database synchronization with library inventory.</li>
+            </ul>
+            
+            <h4>Tech Stack</h4>
+            <p><strong>Hardware:</strong> Raspberry Pi, Touch Screen, Camera, Solenoid Locks<br><strong>Software:</strong> Python, OpenCV, Tkinter (for UI), Firebase (Database)</p>
+
+            <h4>My Role</h4>
+            <p>Lead Engineer & Designer. I developed the CV model, wired the hardware, and programmed the complete system logic and user interface.</p>
+
+            <div class="modal-gallery">
+                <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://embed.figma.com/design/DK8fc6Bwgaz2pfDGRccMc8/Book_Kiosk?node-id=2-109&embed-host=share" allowfullscreen></iframe>
+            </div>
+        </div>
+
+        <div id="project3">
+            <div class="modal-header">
+                <h2>M Mart (Smart Store Concept)</h2>
+                <p>A proof-of-concept for a checkout-free convenience store, using multi-camera Computer Vision and sensor fusion.</p>
+            </div>
+            <h4>Problem Statement</h4>
+            <p>Long checkout lines are a major pain point in retail. This project explores a "grab-and-go" system similar to Amazon Go.</p>
+            
+            <h4>Key Features</h4>
+            <ul>
+                <li>✅ Object detection (YOLOv5) to identify products.</li>
+                <li>✅ Person tracking across multiple camera feeds.</li>
+                <li>✅ Sensor fusion (weight sensors + cameras) for accuracy.</li>
+                <li>✅ A virtual cart system that updates in real-time.</li>
+            </ul>
+
+            <h4>Tech Stack</h4>
+            <p><strong>Software:</strong> Python, OpenCV, TensorFlow, ROS (for message passing), MQTT<br><strong>Hardware:</strong> Jetson Nano, IP Cameras, RFID, Weight Sensors</p>
+
+            <h4>My Role</h4>
+            <p>AI & Robotics Engineer. My focus was on developing the multi-camera tracking algorithm and integrating the weight sensor data with the visual data for a robust "virtual cart" system.</p>
+
+
+            <div class="modal-gallery">
+
+                <button class="button">
+                    <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://embed.figma.com/design/WOIlNtM1oMg5Uu2jMjlDpu/Untitled?node-id=0-1&embed-host=share" allowfullscreen></iframe>                </button>
+
+            </div>
+        </div>
+
+    </div>
+
+    <!-- 11. JavaScript -->
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+
+            // 1. Mobile Menu Toggle
+            const hamburgerBtn = document.getElementById('hamburger-btn');
+            const navLinks = document.querySelector('.nav-links');
+            const navLinkItems = document.querySelectorAll('.nav-link a');
+
+            hamburgerBtn.addEventListener('click', () => {
+                navLinks.classList.toggle('active');
+            });
+
+            // Close menu when a link is clicked
+            navLinkItems.forEach(link => {
+                link.addEventListener('click', () => {
+                    if (navLinks.classList.contains('active')) {
+                        navLinks.classList.remove('active');
+                    }
+                });
+            });
+
+            // 2. Dark Mode Toggle
+            const themeToggleBtn = document.getElementById('theme-toggle');
+            const currentTheme = localStorage.getItem('theme');
+
+            if (currentTheme === 'dark') {
+                document.body.classList.add('dark-mode');
+            }
+
+            themeToggleBtn.addEventListener('click', () => {
+                document.body.classList.toggle('dark-mode');
+                let theme = 'light';
+                if (document.body.classList.contains('dark-mode')) {
+                    theme = 'dark';
+                }
+                localStorage.setItem('theme', theme);
+            });
+
+            // 3. Scroll Reveal Animations
+            const revealElements = document.querySelectorAll('.reveal');
+
+            const observerOptions = {
+                root: null,
+                rootMargin: '0px',
+                threshold: 0.1
+            };
+
+            const revealObserver = new IntersectionObserver((entries, observer) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.classList.add('active');
+                        observer.unobserve(entry.target);
+                    }
+                });
+            }, observerOptions);
+
+            revealElements.forEach(el => {
+                revealObserver.observe(el);
+            });
+
+            // 4. Contact Form Submission
+            const contactForm = document.getElementById('contact-form');
+            const successMsg = document.getElementById('form-success-msg');
+
+            contactForm.addEventListener('submit', (e) => {
+                e.preventDefault();
+                
+                // ---
+                // In a real-world scenario, you would send this data to a backend server.
+                // For this demo, we'll just show the success message.
+                // ---
+                
+                successMsg.style.display = 'block';
+                contactForm.reset();
+                
+                // Hide success message after a few seconds
+                setTimeout(() => {
+                    successMsg.style.display = 'none';
+                }, 4000);
+            });
+            
+            // 5. Hero Subtitle Typing Animation
+            const subtitleEl = document.getElementById('hero-subtitle');
+            const text = subtitleEl.textContent;
+            let currentText = "";
+            let i = 0;
+            subtitleEl.innerHTML = `<span>${text}</span><span class="typing-cursor">|</span>`;
+            const span = subtitleEl.querySelector('span');
+            span.textContent = "";
+
+            function type() {
+                if (i < text.length) {
+                    span.textContent += text.charAt(i);
+                    i++;
+                    setTimeout(type, 100); // Typing speed
+                }
+            }
+            
+            // Start typing after a short delay
+            setTimeout(type, 1000);
+
+            // 6. Project Modal Logic (Added)
+            const modal = document.getElementById('project-modal');
+            const modalCloseBtn = document.getElementById('modal-close');
+            const modalBody = modal.querySelector('.modal-body');
+            const projectCards = document.querySelectorAll('.project-card');
+            const modalTemplates = document.getElementById('modal-templates');
+
+            projectCards.forEach(card => {
+                card.addEventListener('click', () => {
+                    const modalId = card.getAttribute('data-modal');
+                    const template = document.getElementById(modalId);
+                    
+                    if (template) {
+                        modalBody.innerHTML = template.innerHTML;
+                        modal.style.display = 'flex';
+                        document.body.style.overflow = 'hidden'; // Prevent background scroll
+                    }
+                });
+            });
+
+            function closeModal() {
+                modal.style.display = 'none';
+                modalBody.innerHTML = ''; // Clear content
+                document.body.style.overflow = 'auto'; // Restore scroll
+            }
+
+            modalCloseBtn.addEventListener('click', closeModal);
+
+            // Close modal by clicking outside
+            modal.addEventListener('click', (e) => {
+                if (e.target === modal) {
+                    closeModal();
+                }
+            });
+
+        });
+    </script>
+
 </body>
-</html>
+</html> 
